@@ -280,6 +280,10 @@ main {
 
 /* sales section style */
 
+.sales-section {
+	margin-bottom: 120px;
+}
+
 .sales-content h3 {
 	color: #070211;
 	font-size: 24px;
@@ -310,6 +314,73 @@ main {
 
 .sales-discount-percentage {
 	position: absolute;
+}
+
+/* portfolio section style */
+
+.portfolio-section {
+	margin-bottom: 100px;
+}
+
+.portfolio-description {
+	margin-bottom: 45px;
+}
+
+.portfolio-description h3 {
+	color: #F00;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: Inter;
+}
+
+.portfolio-description h1 {
+	color: #070211;
+	font-size: 48px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+
+.portfolio-container {
+	display: flex;
+	gap: 24px;
+}
+
+.portfolio-wrapper {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.portfolio-wrapper:hover.portfolio-wrapper::before {
+	opacity: 0.7;
+	transition: .5s;
+	visibility: visible;
+}
+
+.portfolio-wrapper:hover .portfolio-thumb img {
+	rotate: 5deg;
+	transform: scale(1.3);
+}
+
+.portfolio-wrapper::before {
+	position: absolute;
+	content: "";
+	background: #F00;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 9;
+}
+.portfolio-thumb {
+	overflow: hidden;
+}
+
+.portfolio-thumb img {
+	height: 100%;
+	width: 100%;
+	transition: .3s;
 }
 
 /* news letter section style */
