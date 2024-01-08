@@ -284,6 +284,10 @@ main {
 	margin-bottom: 120px;
 }
 
+.sales-content {
+	margin-bottom: 80px;
+}
+
 .sales-content h3 {
 	color: #070211;
 	font-size: 24px;
@@ -297,23 +301,34 @@ main {
 	font-weight: 900;
 }
 
-.sales-red-bg {
-	width: 100%;
-	height: 230px;
-	border-radius: 16px 0px 16px 16px;
-	background: #F00;
+.sales-images-box {
+	position: relative;
 }
 
+.sales-banner {
+	position: absolute;
+	left: 30px;
+	bottom: 10px;
+}
 
 .sales-person-thumb {
 	position: relative;
-	text-align: right;
 	display: flex;
 	justify-content: end;
 }
 
 .sales-discount-percentage {
 	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 270px;
+}
+
+.sales-red-bg {
+	width: 100%;
+	height: 230px;
+	border-radius: 16px 0px 16px 16px;
+	background: #F00;
 }
 
 /* portfolio section style */
