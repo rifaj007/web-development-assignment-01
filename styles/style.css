@@ -5,8 +5,9 @@
 /* universal style */
 
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	min-width: 1600px;
 }
 
 h1,
