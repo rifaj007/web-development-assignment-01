@@ -30,6 +30,15 @@ font-weight: 400;
 line-height: 32px;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
 /* common style */
 
 main {
@@ -38,6 +47,10 @@ main {
 
 .container {
     padding: 0 140px;
+}
+
+.text-center {
+	text-align: center;
 }
 
 /* banner section style */
@@ -262,5 +275,111 @@ main {
 	color: #F00;
 	font-size: 48px;
 	font-weight: 700;
+	display: inline-block;
+}
+
+/* sales section style */
+
+.sales-content h3 {
+	color: #070211;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: Inter;
+}
+
+.sales-content h1 {
+	color: #070211;
+	font-size: 72px;
+	font-weight: 900;
+}
+
+.sales-red-bg {
+	width: 100%;
+	height: 230px;
+	border-radius: 16px 0px 16px 16px;
+	background: #F00;
+}
+
+
+.sales-person-thumb {
+	position: relative;
+	text-align: right;
+	display: flex;
+	justify-content: end;
+}
+
+.sales-discount-percentage {
+	position: absolute;
+}
+
+/* footer section style */
+
+.footer-section {
+	background: #070211;
+	padding: 120px 0;
+}
+
+.footer-top-section {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	padding-bottom: 50px;
+}
+
+.footer-address li {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 40px;
+}
+
+.footer-contact li a {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 40px;
+	display: inline-block;
+}
+
+.footer-contact li a img {
+	margin-bottom: -5px;
+	margin-right: 5px;
+}
+
+
+.footer-social-link.text-center {
+	padding: 45px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-social-link li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.footer-social-link li:last-child{
+	margin-right: 0;
+}
+
+.footer-social-link li a img {
+	display: block;
+}
+
+.copyright-section {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+.copyright-text {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.copyright-btn {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
 	display: inline-block;
 }
