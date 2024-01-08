@@ -245,6 +245,7 @@ main {
 	display: flex;
 	align-items: center;
 	margin-bottom: 120px;
+	justify-content: space-between;
 }
 
 .offer-left-side > span {
